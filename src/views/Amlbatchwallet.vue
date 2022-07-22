@@ -121,6 +121,7 @@ export default {
         NProgress.start();
         this.$store
           .dispatch("aml/amlReqBatchWalletTX", [
+            //you get the idea here?
             this.aml,
             this.btcTwo,
             this.ethTwo,
